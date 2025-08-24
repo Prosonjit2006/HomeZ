@@ -41,7 +41,7 @@ h2 span {
 }
 
 h3 {
-    font-size: 66px;
+    font-size: 65px;
     font-weight: 500;
 }
 
@@ -332,7 +332,25 @@ nav {
 .card_content > p{ 
     margin: 10px;
 }
+.card_content hr{
+    color: #FFC358;
+}
+.card{
+    position: relative;
+}
 .circle{
     font-size: 70px;
-    transform: rotate(45deg) translate();
+    position: absolute;
+    top: 73%;
+    right: 3%;
+    transform: rotate(45deg);
 }
+
+/*=========================== data part =====================*/
+
+.data_content{
+    width: 100%;
+}
+
+
+
