@@ -27,7 +27,9 @@ img {
 h1 {
     font-size: 80px;
     font-weight: 800;
-
+}
+h1 span{
+    color: #FFC358;
 }
 
 h2 {
@@ -36,22 +38,22 @@ h2 {
 }
 
 h3 {
-    font-size: ;
+    font-size: 66px;
     font-weight: 500;
 }
 
 h4 {
-    font-size: ;
+    font-size: 58px;
     font-weight: 400;
 }
 
 h5 {
-    font-size: ;
+    font-size: 50px;
     font-weight: 300;
 }
 
 h6 {
-    font-size: ;
+    font-size: 42px;
     font-weight: 250;
 }
 
@@ -111,10 +113,19 @@ p {
 
 .button {
     background-color: white;
-    color: #FFC358;
+    /* color: #FFC358; */
     border-radius: 35px;
-    padding: 15px;
-    width: 170px;
+    padding: 12px;
+    width: 180px;
+}
+.button p{
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.button i{
+    font-size: 45px;
+    transform: rotate(45deg);
 }
 
 
@@ -219,7 +230,7 @@ nav {
 
 #button {
     margin-top: 120px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .banner_bottom {
@@ -230,7 +241,8 @@ nav {
     -webkit-backdrop-filter: blur(4.3px);
 
     padding: 10px;
-    height: 270px;
+    height: 200px;
+    
 }
 
 .banner_bottom_text {
@@ -242,4 +254,49 @@ nav {
     color: #FFC358;
     padding: 0 10px;
     font-size: 25px;
+    padding-bottom: 50px;
+}
+
+
+.banner_content_box{
+    width: 100%;
+    display: flex;
+    /* font-size: 25px; */
+    /* gap: -5px; */
+}
+
+.bottom_content1{
+    width: 72%;
+   text-align: center;
+   gap: -5px;
+}
+.bottom_content1 b{
+    color: #FFC358;
+}
+.bottom_content1 p{
+    color: white;
+}
+
+
+/* =================================================================================== */
+.hr::before{
+    content: "";
+}
+
+
+.bottom_content2{
+    width: 28%;
+    position: relative;
+    
+}
+.bottom_content2 p{
+    width: 30%;
+    padding: 10px;
+    color: #FFC358;
+    background-color: black;
+    border-radius: 25px;
+    
+    position: absolute;
+    top: -50%;
+    left: 50%;
 }
